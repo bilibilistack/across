@@ -18,4 +18,4 @@ RUN set -ex \
 
 VOLUME /etc/hysteria
 ENV TZ=Asia/Shanghai
-CMD [ "/usr/bin/hysteria", "server", "-c", "/etc/hysteria/server.yaml" ]
+CMD [ "/usr/bin/hysteria", "client", "-c", "/etc/hysteria/client.yaml" ]
